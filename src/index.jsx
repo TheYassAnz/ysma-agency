@@ -1,15 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/'
-import Survey from './pages/Survey/'
-import Header from './components/Header'
-import Error from './components/Error'
+import Home from './pages/Home'
+import Survey from './pages/Survey'
 import Results from './pages/Results'
 import Freelances from './pages/Freelances'
-// // On ajoute nos composants
-// import ClientForm from './components/ClientForm'
-// import FreelanceForm from './components/FreelanceForm'
+import Header from './components/Header'
+import Error from './components/Error'
 
 ReactDOM.render(
   <React.StrictMode>
