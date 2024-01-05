@@ -8,7 +8,7 @@ const HomeWrapper = styled.div`
   justify-content: center;
 `
 
-const HomeContainer = styled.div`
+const HomerContainer = styled.div`
   margin: 30px;
   background-color: ${colors.backgroundLight};
   padding: 60px 90px;
@@ -40,7 +40,7 @@ const Illustration = styled.img`
 function Home() {
   return (
     <HomeWrapper>
-      <HomeContainer>
+      <HomerContainer>
         <LeftCol>
           <StyledTitle>
             Repérez vos besoins, on s’occupe du reste, avec les meilleurs
@@ -51,7 +51,7 @@ function Home() {
           </StyledLink>
         </LeftCol>
         <Illustration src={HomeIllustration} />
-      </HomeContainer>
+      </HomerContainer>
     </HomeWrapper>
   )
 }
